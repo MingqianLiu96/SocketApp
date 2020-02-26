@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e7dc520-9410-4f21-90c0-ae1be4892c63" name="Default Changelist" comment="finish required function with Junit Test">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SocketApp/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SocketApp/RunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SocketApp/TcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SocketApp/TcpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SocketApp/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SocketApp/UnitTest/CommunicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SocketApp/UnitTest/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/PLACEHOLDER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/mingqian.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SocketApp/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SocketApp/RunnableDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SocketApp/TcpClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SocketApp/TcpServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SocketApp/TestThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/mingqian.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/PLACEHOLDER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SocketApp/UnitTest/CommunicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SocketApp/UnitTest/QuickSortTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YCzOF7UemovB8wODEgsbe4jUVG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="SocketApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CommunicationTest.communicateTest">
+    <configuration name="TcpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SocketApp.TcpClient" />
+      <module name="mingqian" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TcpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SocketApp.TcpServer" />
+      <module name="mingqian" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SocketApp.TestThread" />
+      <module name="mingqian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SocketApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mingqian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SocketApp.UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SocketApp.UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="SocketApp.UnitTest.CommunicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunicationTest.communicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mingqian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SocketApp.UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SocketApp.UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="SocketApp.UnitTest.CommunicationTest" />
+      <option name="METHOD_NAME" value="communicateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CommunicationTest.communicateTest" />
+        <item itemvalue="Application.TcpServer" />
+        <item itemvalue="Application.TestThread" />
+        <item itemvalue="JUnit.CommunicationTest" />
+        <item itemvalue="Application.TcpClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e7dc520-9410-4f21-90c0-ae1be4892c63" name="Default Changelist" comment="" />
+      <created>1582461329304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582461329304</updated>
+      <workItem from="1582461333298" duration="5019000" />
+      <workItem from="1582561904946" duration="10239000" />
+      <workItem from="1582582707299" duration="20150000" />
+      <workItem from="1582680568276" duration="1042000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish required function with Junit Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish required function with Junit Test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="925" y="279" key="#Project_Structure" timestamp="1582461698049">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="925" y="279" key="#Project_Structure/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582461698049" />
+    <state x="633" y="582" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582590426958">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="633" y="582" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582590426958" />
+    <state x="753" y="503" width="467" height="356" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582590551664">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="753" y="503" width="467" height="356" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582590551664" />
+    <state x="753" y="529" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1582590429136">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="753" y="529" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582590429136" />
+    <state x="832" y="195" key="CommitChangelistDialog2" timestamp="1582681651639">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="832" y="195" key="CommitChangelistDialog2/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582681651639" />
+    <state x="1013" y="367" key="FileChooserDialogImpl" timestamp="1582681332601">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1013" y="367" key="FileChooserDialogImpl/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582681332601" />
+    <state x="1141" y="537" width="310" height="275" key="Github.ShareDialog" timestamp="1582681550948">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1141" y="537" width="310" height="275" key="Github.ShareDialog/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582681550948" />
+    <state x="1040" y="308" key="Github.UntrackedFilesDialog" timestamp="1582681561666">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1040" y="308" key="Github.UntrackedFilesDialog/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582681561666" />
+    <state width="1691" height="360" key="GridCell.Tab.0.bottom" timestamp="1582606211099">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1691" height="360" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582606211099" />
+    <state width="1691" height="360" key="GridCell.Tab.0.center" timestamp="1582606211099">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1691" height="360" key="GridCell.Tab.0.center/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582606211099" />
+    <state width="1691" height="360" key="GridCell.Tab.0.left" timestamp="1582606211099">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1691" height="360" key="GridCell.Tab.0.left/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582606211099" />
+    <state width="1691" height="360" key="GridCell.Tab.0.right" timestamp="1582606211099">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1691" height="360" key="GridCell.Tab.0.right/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582606211099" />
+    <state width="1691" height="357" key="GridCell.Tab.1.bottom" timestamp="1582603357113">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1691" height="357" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582603357113" />
+    <state width="1691" height="357" key="GridCell.Tab.1.center" timestamp="1582603357113">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1691" height="357" key="GridCell.Tab.1.center/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582603357113" />
+    <state width="1691" height="357" key="GridCell.Tab.1.left" timestamp="1582603357113">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1691" height="357" key="GridCell.Tab.1.left/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582603357113" />
+    <state width="1691" height="357" key="GridCell.Tab.1.right" timestamp="1582603357113">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1691" height="357" key="GridCell.Tab.1.right/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582603357113" />
+    <state x="676" y="227" key="SettingsEditor" timestamp="1582681278198">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="676" y="227" key="SettingsEditor/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582681278198" />
+    <state x="966" y="228" key="refactoring.ChangeSignatureDialog" timestamp="1582584342244">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="966" y="228" key="refactoring.ChangeSignatureDialog/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582584342244" />
+    <state x="565" y="305" width="840" height="1034" key="search.everywhere.popup" timestamp="1582590021968">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="565" y="305" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/2560.-598.1440.2560@0.0.2560.1400" timestamp="1582590021968" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SocketApp/RunnableDemo.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SocketApp/RunnableDemo.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="ProcessAttachRunConfigurationType">
+        <watch expression="readline" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="a.runClient(input)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
